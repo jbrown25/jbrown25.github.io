@@ -59,13 +59,56 @@
 			],
 			"code": {
 				"type": "scss",
-				"content": "$border: 1px solid #333333;\n.box {\n   border: $border\n}\n\n//compiles down to\n\n.box{\n   border: 1px solid #333333;\n}"
+				"content": "$border: 1px solid #333333;\n.box {\n   border: $border\n}\n\n//compiles down to\n\n.box {\n   border: 1px solid #333333;\n}"
+			}
+		},
+		{
+			"heading": "Nesting",
+			"bullets": [
+				"Nesting rule-sets gives your code a visual hierarchy",
+				"I find it makes it easier to read and understand at a glance",
+			],
+			"code": {
+				"type": "scss",
+				"content": ".parent {\n   position: relative;\n   .child{\n      background: #ffffff;\n   }\n}\n\n//compiles down to\n\n.parent {\n   position: relative;\n}\n.parent .child {\n   background: #ffffff;\n}"
+			}
+		},
+		{
+			"heading": "Sass is modular",
+			"bullets": [
+				"You can create multiple files including partials, which are files that get compiled into the main file.",
+				"Partials begin with an underscore.  For example, _navigation.scss",
+				"Modular code is much easier to maintain.  Finding things you want to change is easy."
+			],
+			"code": {
+				"type": "scss",
+				"content": "//three files named _normalize.scss, _variables.scss, _navigation.scss\n\n@import \"normalize\"\n@import \"variables\"\n@import \"navigation\""
 			}
 		},
 		{
 			"heading": "",
 			"bullets": [
-				"<a href=\"justinbrowndev.com\" target=\"_blank\"></a> is a link."
+				
+			],
+			"code": {
+				"type": "scss",
+				"content": ""
+			}
+		},
+		{
+			"heading": "",
+			"bullets": [
+				
+			],
+			"code": {
+				"type": "scss",
+				"content": ""
+			}
+		},
+		{
+			"heading": "",
+			"bullets": [
+				
 			],
 			"code": {
 				"type": "scss",
@@ -74,3 +117,17 @@
 		}
 	]
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
