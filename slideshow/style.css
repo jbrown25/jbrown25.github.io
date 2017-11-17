@@ -355,7 +355,17 @@ h1 {
   font-size: 48px;
   font-weight: 700;
   margin-bottom: 10px;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.35);
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active,
+a:focus {
+  color: #ffffff;
+  text-decoration: underline;
 }
 
 button {
@@ -449,16 +459,18 @@ button:active {
 .bullet-container ul li {
   font-size: 32px;
   font-weight: 400;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.35);
+  margin-bottom: 20px;
 }
 
 .button-container {
   margin-top: 20px;
+  margin-bottom: 50px;
 }
 
 .slide-counter span {
   font-size: 22px;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.35);
 }
 
 .inactive {
