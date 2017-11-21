@@ -254,6 +254,7 @@ th {
   display: none;
 }
 
+/** Loading animation from spinkit, http://tobiasahlin.com/spinkit/ **/
 .sk-cube-grid {
   width: 40px;
   height: 40px;
@@ -529,6 +530,7 @@ button:active {
   animation: moveFromTop .6s ease both;
 }
 
+/** page transitions from https://tympanus.net/codrops/2013/05/07/a-collection-of-page-transitions/ **/
 @keyframes rotatePushLeft {
   from {
   }
